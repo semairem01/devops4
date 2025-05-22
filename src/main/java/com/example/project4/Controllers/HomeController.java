@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String getHome(){
-        return "Hellooooooooooo from Kubernates Cluster!";
+        return "Helloooo from Kubernates Cluster!";
     }
 }
